@@ -12,12 +12,16 @@ import os
 bot_token = os.environ.get('TG_BOT_TOKEN')
 startmessage = [[
 		InlineKeyboardButton(
-			"Telegraph 📝",
+			"Commands 📝",
 			url='https://telegra.ph/Instructions-to-Use-This-Bot-04-07'
 		),
         InlineKeyboardButton(
-			"DEV 👷🏻",
-			url='https://t.me/pseudo_monk'
+			"Owner 👷🏻",
+			url='https://t.me/Abhay1_1'
+		)
+InlineKeyboardButton(
+			"🇮🇳 TipsTrick🇮🇳",
+			url='https://t.me/+UWFtw9r8HAFlYWQ1'
 		)
         ]]
 
